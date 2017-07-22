@@ -1,0 +1,48 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.container {
+  -webkit-overflow: scroll;
+  overflow: scroll;
+  background-color: #fce4ec;
+  width: 120%;
+  height: 100%;
+}
+
+.a-tag {
+  font-size: 18px;
+}
+
+.title {
+  padding-top: 1%;
+  font-size: 30px;
+}
+
+.content {
+  width: 99%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-top: 5%;
+  display: inline-block;
+}
+
+.content-text {
+  font-size: 18px;
+}
+
+.btn {
+  width: 100% !important;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  position: fixed;
+}
